@@ -1,0 +1,125 @@
+*{
+   background-color: rgb(143, 225, 231); 
+}
+header{
+    height: 25vh;
+}
+
+#foto img{
+    border-radius: 20px;    
+}
+.font{
+    
+   text-align: justify;
+}
+
+#figura{
+    height: 20vh;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline;
+    background-color: darkcyan;
+    border-radius: 100px;
+}
+
+.menu{
+    position: relative;
+    float: right;
+    
+}
+
+.itens{
+    margin: 5px;
+}
+
+#escrita{
+    width: 50vw;
+    height: 1.5rem;
+    margin-left: 5vw;
+    vertical-align: middle;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
+}
+
+#div_menu{
+    width: 80vw;
+    position: relative;
+    float: left;
+
+    
+}
+#sec{
+    margin: 15px;
+    border-top: solid black;
+    padding-top: 25px;
+}
+#div_duas{
+    display: inline-block;
+    margin-right: 0;
+    width: 55%;
+    margin-left: 60px ;
+}
+#div1{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    background-color:rgb(48, 131, 134) ;
+    border-radius: 20px;
+    margin-right: 0;
+    padding: 15px;
+    
+    
+}
+#div2{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    background-color:rgb(48, 131, 134) ;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-right: 0;
+    padding: 15px;
+    
+}
+#div1 a,h2,p{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(48, 131, 134);
+}
+
+#div2 a,h2,p{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(48, 131, 134);
+}
+#div3 img{
+    width: 20%;
+    background-color: rgb(48, 131, 134);
+    border-radius: 20px;
+    margin-left: 10%;
+
+}
+#div3{
+    width: 30%;
+    height: 50%;
+    position: relative;
+    float: right;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: rgb(48, 131, 134);
+    display: inline-block;
+    margin-right: 50px;
+    padding: 15px;
+}
+
+#alinha{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(48, 131, 134);
+}
+

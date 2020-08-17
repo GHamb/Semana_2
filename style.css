@@ -1,0 +1,155 @@
+
+:root{
+    --main-bg-color: rgb(143, 225, 231);
+    --color-darkcyan: darkcyan;
+    --bg-procura:white;
+    --borda:black;
+    --menu:black;
+    --cyan:cyan;
+    --sombra:black;
+    --world:darkcyan;
+}
+:root[data-theme ='dark']{
+    --main-bg-color: rgb(43, 39, 39);
+    --color-darkcyan: white;
+    --bg-procura:grey;
+    --borda:white;
+    --menu:white;
+    --cyan:black;
+    --sombra:rgb(110, 104, 104);
+    --azar:black;
+    --world:green;
+}
+
+*{
+    background-color: var(--main-bg-color)
+}
+
+main{
+    text-align: center;
+}
+header{
+    display: block;
+    
+}
+#menu{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    
+}
+#menu a{
+    margin: 5px 5px;
+    text-decoration: none;
+    color: var(--menu);
+    font: normal 20px Times sans-serif ;
+}
+#foto img{
+    border-radius: 20px;    
+}
+#sec{
+    margin-top: 200px;
+}
+#figura{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    background-color: var(--world);
+    border-radius: 200px;
+
+}
+#busca{
+    display: flex;
+    align-items: center;
+    margin: 2 0 0 auto;
+
+}
+#procura{
+    height: 36px;
+    margin: 0 auto 0 4px;
+    border-width: 2px;
+    border-radius: 20px;
+    color: var(--cyan);
+}
+
+
+#ps{
+    height: 30px;
+    width: 300px;
+    margin: 0 0 0 auto;
+    border-width: 2px;
+    border-radius: 6px;
+    background-color:var(--bg-procura);
+
+}
+
+#sorte{
+    margin-top: 10px;
+    margin-right: 15px
+    
+}
+
+#azar{
+    text-decoration: none;
+    border: solid 1px var(--borda);
+    background-color: var(--color-darkcyan);
+    border-radius: 6px;
+    padding: 3px;
+    font-size: bolder 10px ;
+    color: var(--azar);
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 5px dashed var(--borda);
+    
+
+}
+#a{
+    font: normal 20px  Arial sans-serif;
+    color: var(--color-darkcyan);
+    margin-left: 10px;
+    text-decoration: none;
+}
+#esquerda_rp{
+ display: inline-block;
+ text-align: left ;
+ width: 49%;
+}
+
+#esquerda_rp ul{
+    padding: 0;
+}
+
+#esquerda_rp a{
+
+text-decoration: none;
+color:var(--color-darkcyan);
+font: normal 20px Times sans-serif ;
+margin: 5px;
+
+}
+#direita_rp {
+display: inline-block;
+text-align: right;
+width: 50%;
+   
+}
+
+#direita_rp a{ 
+    text-decoration: none;
+    color: var(--color-darkcyan);
+    font: normal 20px Times sans-serif ;
+    margin: 5px;
+}
+
+.sombreado a,.sombreado p{
+    color:var(--color-darkcyan);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--sombra);
+    font-size: 1em; 
+}
